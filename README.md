@@ -12,7 +12,7 @@ Wild Life Route Prediction and Alert System
 
 ## Features 
 1. Resolves the conflict between wild life and humans, by predicting the route the wild life will take.
-2. Emergency SOS System that is directed to 112 (Forest Department Emergency Number).
+2. Emergency SOS System that is directed to 112 (Common Emergency Number).
 
    
 ## Link to product walkthrough
