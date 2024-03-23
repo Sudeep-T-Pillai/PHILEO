@@ -1,0 +1,21 @@
+\name{neighbours}
+\alias{neighbours}
+\title{Neighbours}
+\usage{
+neighbours(i, j, n, x)
+}
+\arguments{
+\item{i}{row index}
+
+\item{j}{column index}
+
+\item{n}{number of neighbours (4 or 8)}
+
+\item{x}{matrix with values}
+}
+\value{
+Vector with values the neighours of x
+}
+\description{
+Neighbours
+}

@@ -1,0 +1,22 @@
+\name{omniscape_skeleton}
+\alias{omniscape_skeleton}
+\title{Create the initialization file for the julia package Omniscape}
+\usage{
+omniscape_skeleton(en = NULL, path = NULL, radius = NULL, aggr_fact = 1)
+}
+\arguments{
+\item{en}{an enerscape object.}
+
+\item{path}{full path where to write the .ini file.}
+
+\item{radius}{radius in pixels of the moving window.}
+
+\item{aggr_fact}{the block size to compute the Omniscape.}
+}
+\value{
+Nothing, only write the omniscape.ini file to disk.
+}
+\description{
+This creates the init file for the julia package Omniscape:
+\url{https://juliapackages.com/p/omniscape}.
+}

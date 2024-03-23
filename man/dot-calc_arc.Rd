@@ -1,0 +1,25 @@
+\name{.calc_arc}
+\alias{.calc_arc}
+\title{Compute energy costs}
+\usage{
+.calc_arc(slope, m, work_in_kcal = TRUE, j_to_kcal = 4184)
+}
+\arguments{
+\item{slope}{slope transition matrix.}
+
+\item{m}{species body mass (kg).}
+
+\item{work_in_kcal}{if work should be expressed in kilocalories.}
+
+\item{j_to_kcal}{joules to kilocalories conversion constant.}
+}
+\value{
+A transition layer with values the energy cost of movement between
+  cells (J or kcal).
+}
+\description{
+Internal function for enerscape - calculate work.
+}
+\details{
+Internal function of enerscape, don't call directly.
+}

@@ -1,0 +1,23 @@
+\name{energy}
+\alias{energy}
+\title{Energy Landscape}
+\usage{
+energy(slope, distance, mass, res, kcal = TRUE)
+}
+\arguments{
+\item{slope}{vector with slopes}
+
+\item{distance}{vector with distances}
+
+\item{mass}{body mass of species (kg)}
+
+\item{res}{numeric value (double) of the spatial resolution of the matrix}
+
+\item{kcal}{(boolean) if to return the result in kCal (true) or J (false)}
+}
+\value{
+Vector with the energy cost of locomotion (EnergyScape)
+}
+\description{
+Energy Landscape
+}
