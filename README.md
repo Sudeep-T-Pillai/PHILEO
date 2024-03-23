@@ -2,7 +2,7 @@
 
 # CODE reCET
 
-![Code ReCET BAnner](https://github.com/Sudeep-T-Pillai/PHILEO/blob/main/phileo%20(1).jpg?raw=true)
+![Code ReCET BAnner](https://github.com/Sudeep-T-Pillai/PHILEO/blob/main/phileo.jpg?raw=true)
 
 ## Team Name
 PHILEO
