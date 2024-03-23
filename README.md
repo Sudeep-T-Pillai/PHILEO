@@ -2,17 +2,19 @@
 
 # CODE reCET
 
-![Code ReCET BAnner](https://github.com/CODE-reCET/CodeRECET24/assets/154266304/08736571-0016-4aef-840d-94054de99db7)
+![Code ReCET BAnner](https://github.com/Sudeep-T-Pillai/PHILEO/blob/main/phileo%20(1).jpg?raw=true)
 
 ## Team Name
-name 
+PHILEO
 
 ## Idea
-Breif Idea in two three sentences 
+Wild Life Route Prediction and Alert System
 
 ## Features 
-1. 
+1. Resolves the conflict between wild life and humans, by predicting the route the wild life will take.
+2. Emergency SOS System that is directed to 04712320837 or 9447979038 (Forest Department Emergency Number).
 
+   
 ## Link to product walkthrough
 [link to video](Link Here)
 
