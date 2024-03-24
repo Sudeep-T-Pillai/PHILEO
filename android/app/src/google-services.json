@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650308665736",
+    "project_id": "phileo-f976c",
+    "storage_bucket": "phileo-f976c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650308665736:android:84887c93ad43953a057a3d",
+        "android_client_info": {
+          "package_name": "com.example.coderecet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS60WR1HzWOGxr0REpGwxsiA0NOUd6kd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
