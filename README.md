@@ -38,7 +38,7 @@ Wild Life Route Prediction and Alert System
      - SQL
 4. Flutter
      - OSM (Open State Map).
-     - not android packages.
+     - normal android packages.
 
 
 ## How to configure
