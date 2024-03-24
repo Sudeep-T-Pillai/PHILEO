@@ -20,7 +20,7 @@ Wild Life Route Prediction and Alert System
    
 ## Link to product walkthrough
 
-[link to video](Link Here)
+[link to video](https://youtu.be/HkrdojGjuUw)
 
    
 ## Libraries used
