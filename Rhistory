@@ -1,0 +1,140 @@
+source("C:/Users/amtom/OneDrive/Desktop/Phileo/Project.R")
+install.packages("Firebase")
+y
+install.packages("Firebase")
+install.packages("firebase")
+libaray(raster)
+library(raster)
+def <- raster("C:\\Users\\amtom\\Desktop\\Folder_0\\EnergyScape.tif")
+View(def)
+source("C:/Users/amtom/OneDrive/Desktop/Phileo/Project.R")
+plot(en)
+plot(en_log)
+View(def)
+plot(def)
+point_x <- 5
+point_y <- sin(point_x)
+points(point_x, point_y, col = "red", pch = 19)
+plot(def)
+point_x <- 100
+point_y <- 200
+points(point_x, point_y, col = "red", pch = 19)
+plot(def)
+matrix <- as.matrix(def)
+View(matrix)
+View(sirente)
+install.packages("igraph")
+resistance_matrix <- matrix
+graph <- graph_from_adjacency_matrix(resistance_matrix, mode = "undirected", weighted = TRUE)
+library(igraph)
+graph <- graph_from_adjacency_matrix(resistance_matrix, mode = "undirected", weighted = TRUE)
+graph <- graph.adjacency(adjmatrix = as.matrix(resistance_matrix),
+mode = "max",
+weighted = TRUE,
+diag = FALSE)
+nonzero_indices <- which(resistance_matrix != 0, arr.ind = TRUE)
+edgelist <- cbind(nonzero_indices[,1], nonzero_indices[,2])
+graph <- graph_from_edgelist(edgelist, directed = FALSE)
+E(graph)$weight <- resistance_matrix[nonzero_indices]
+source_node <- 1
+target_node <- length(resistance_matrix)
+shortest_paths <- shortest_paths(graph, from = source_node, to = target_node, output = "epath")
+shortest_paths <- shortest_paths(graph, from = source_node, to = target_node, output = "epath")
+# Load the igraph package
+library(igraph)
+# Example resistance matrix (replace with your actual resistance matrix)
+resistance_matrix <- matrix(c(1, 2, 3, 2, 1, 2, 3, 2, 1), nrow = 3, byrow = TRUE)
+# Get the indices of non-zero elements in the resistance matrix
+nonzero_indices <- which(resistance_matrix != 0, arr.ind = TRUE)
+# Create an edgelist from the non-zero elements
+edgelist <- cbind(nonzero_indices[,1], nonzero_indices[,2])
+# Convert the edgelist to a graph with edge weights
+graph <- graph_from_edgelist(edgelist, directed = FALSE)
+E(graph)$weight <- resistance_matrix[nonzero_indices]
+# Define source and target nodes
+source_node <- 1
+target_node <- vcount(graph)  # Use the total number of vertices as the target node
+# Apply Dijkstra's algorithm to find least-cost path
+shortest_paths <- shortest_paths(graph, from = source_node, to = target_node, output = "epath")
+# Extract edge sequence representing the shortest path
+edges <- as.vector(shortest_paths$residuals[[1]])
+# Plot the graph with the least-cost path highlighted
+plot(graph, layout = layout_nicely(graph), edge.color = "gray", vertex.color = "lightblue")
+highlight_path <- edges
+plot(graph, layout = layout_nicely(graph), edge.color = "gray", vertex.color = "lightblue")
+highlight_path(edges)
+# Load the igraph package
+library(igraph)
+# Example resistance matrix (replace with your actual resistance matrix)
+resistance_matrix <- matrix(c(1, 2, 3, 2, 1, 2, 3, 2, 1), nrow = 3, byrow = TRUE)
+# Get the indices of non-zero elements in the resistance matrix
+nonzero_indices <- which(resistance_matrix != 0, arr.ind = TRUE)
+# Create an edgelist from the non-zero elements
+edgelist <- cbind(nonzero_indices[,1], nonzero_indices[,2])
+# Convert the edgelist to a graph with edge weights
+graph <- graph_from_edgelist(edgelist, directed = FALSE)
+E(graph)$weight <- resistance_matrix[nonzero_indices]
+# Define source and target nodes
+source_node <- 1
+target_node <- vcount(graph)  # Use the total number of vertices as the target node
+# Apply Dijkstra's algorithm to find least-cost path
+shortest_paths <- shortest_paths(graph, from = source_node, to = target_node, output = "epath")
+# Extract edge sequence representing the shortest path
+edges <- as.vector(shortest_paths$residuals[[1]])
+# Plot the graph with the least-cost path highlighted
+plot(graph, layout = layout_nicely(graph), edge.color = "gray", vertex.color = "lightblue")
+highlight_edges <- get.edge.ids(graph, edges = edges, directed = FALSE)
+# Load the igraph package
+library(igraph)
+# Example resistance matrix (replace with your actual resistance matrix)
+resistance_matrix <- matrix(c(1, 2, 3, 2, 1, 2, 3, 2, 1), nrow = 3, byrow = TRUE)
+# Get the indices of non-zero elements in the resistance matrix
+nonzero_indices <- which(resistance_matrix != 0, arr.ind = TRUE)
+# Create an edgelist from the non-zero elements
+edgelist <- cbind(nonzero_indices[,1], nonzero_indices[,2])
+# Convert the edgelist to a graph with edge weights
+graph <- graph_from_edgelist(edgelist, directed = FALSE)
+E(graph)$weight <- resistance_matrix[nonzero_indices]
+# Define source and target nodes
+source_node <- 1
+target_node <- vcount(graph)  # Use the total number of vertices as the target node
+# Apply Dijkstra's algorithm to find least-cost path
+shortest_paths <- shortest_paths(graph, from = source_node, to = target_node, output = "epath")
+# Extract edge sequence representing the shortest path
+edges <- as.vector(shortest_paths$residuals[[1]])
+# Plot the graph with the least-cost path highlighted
+plot(graph, layout = layout_nicely(graph), edge.color = "gray", vertex.color = "lightblue")
+highlight_edges <- edges
+E(graph)$color <- "gray"  # Reset edge color
+E(graph)$color[highlight_edges] <- "red"  # Highlight edges on the shortest path
+# Load the igraph package
+library(igraph)
+# Example resistance matrix (replace with your actual resistance matrix)
+resistance_matrix <- matrix(c(1, 2, 3, 2, 1, 2, 3, 2, 1), nrow = 3, byrow = TRUE)
+# Get the indices of non-zero elements in the resistance matrix
+nonzero_indices <- which(resistance_matrix != 0, arr.ind = TRUE)
+# Create an edgelist from the non-zero elements
+edgelist <- cbind(nonzero_indices[,1], nonzero_indices[,2])
+# Convert the edgelist to a graph with edge weights
+graph <- graph_from_edgelist(edgelist, directed = FALSE)
+E(graph)$weight <- resistance_matrix[nonzero_indices]
+# Define source and target nodes
+source_node <- 1
+target_node <- vcount(graph)  # Use the total number of vertices as the target node
+# Apply Dijkstra's algorithm to find least-cost path
+shortest_path <- shortest_paths(graph, from = source_node, to = target_node, output = "epath")$epath[[1]]
+# Plot the graph
+plot(graph, layout = layout_nicely(graph), edge.color = "gray", vertex.color = "lightblue")
+# Highlight the shortest path
+highlight_edges <- get.edge.ids(graph, e = shortest_path)
+load("C:/Users/amtom/Downloads/movecost-master/movecost-master/data/volc.loc.rda")
+View(volc.loc)
+View(volc.loc)
+nodes <- V(graph)
+print(nodes)
+for (i in 1:vcount(graph)) {
+cat("Node", i, "is at row:", layout[i, 1], "and column:", layout[i, 2], "\n")
+}
+for (i in 1:vcount(graph)) {
+cat("Node", i, "is at x:", layout[i, 1], "and y:", layout[i, 2], "\n")
+}
